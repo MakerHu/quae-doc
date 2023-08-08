@@ -44,6 +44,7 @@ export default defineConfig({
       lang: 'en-US',
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        langMenuLabel: 'Change language',
         outlineTitle: 'On this page',
         docFooter: {
           prev: 'Previous page',
@@ -111,6 +112,7 @@ export default defineConfig({
       lang: 'zh-CN', // optional, will be added  as `lang` attribute on `html` tag
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        langMenuLabel: '语言',
         outlineTitle: '本章目录',
         docFooter: {
           prev: '上一篇',
