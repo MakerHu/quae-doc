@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/quae-doc/',
   head: [['link', { rel: 'icon', href: '/quae-doc/favicon.ico' }]],
+  lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
     outline: 'deep',  // 文章右侧目录层级
@@ -44,17 +45,15 @@ export default defineConfig({
       lang: 'en-US',
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        langMenuLabel: 'Change language',
+        darkModeSwitchLabel: 'Appearance',
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Return to top',
+        lastUpdatedText: 'Updated at',
         outlineTitle: 'On this page',
         docFooter: {
           prev: 'Previous page',
           next: 'Next page',
-        },
-        lastUpdated: {
-          text: 'Updated at',
-          formatOptions: {
-            dateStyle: 'full',
-            timeStyle: 'medium'
-          }
         },
         nav: [
           { text: 'Guide', link: '/guide/' },
@@ -111,17 +110,15 @@ export default defineConfig({
       lang: 'zh-CN', // optional, will be added  as `lang` attribute on `html` tag
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        langMenuLabel: '切换语言',
+        darkModeSwitchLabel: '外观',
+        sidebarMenuLabel: '目录',
+        returnToTopLabel: '返回顶部',
+        lastUpdatedText: '上次更新',
         outlineTitle: '本章目录',
         docFooter: {
           prev: '上一篇',
           next: '下一篇',
-        },
-        lastUpdated: {
-          text: '最后更新于',
-          formatOptions: {
-            dateStyle: 'full',
-            timeStyle: 'medium'
-          }
         },
         nav: [
           { text: '指南', link: '/zh/guide/' },
