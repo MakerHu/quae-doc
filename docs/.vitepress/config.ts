@@ -77,12 +77,13 @@ export default defineConfig({
               text: '组件',
               items: [
                 { text: '介绍', link: '/component/' },
-                { text: '如何使用', link: '/component/button' },
+                { text: '如何使用', link: '/component/how-to-use' },
                 { text: '组件开发', link: '/component/development' }
               ]
             },
             {
               text: '基础组件',
+              collapsed: false,
               items: [
                 { text: '按钮', link: '/component/button' },
               ]
@@ -139,17 +140,18 @@ export default defineConfig({
           ],
           '/en/component/': [
             {
-              text: '组件',
+              text: 'Component',
               items: [
-                { text: '介绍', link: '/en/component/' },
-                { text: '如何使用', link: '/en/component/button' },
-                { text: '组件开发', link: '/en/component/development' }
+                { text: 'Intruction', link: '/en/component/' },
+                { text: 'How to use', link: '/en/component/how-to-use' },
+                { text: 'Component development', link: '/en/component/development' }
               ]
             },
             {
-              text: '基础组件',
+              text: 'Basic components',
+              collapsed: false,
               items: [
-                { text: '按钮', link: '/en/component/button' },
+                { text: 'Button', link: '/en/component/button' },
               ]
             }
           ]

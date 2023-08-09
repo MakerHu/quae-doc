@@ -7,7 +7,7 @@ titleTemplate: 新拟物风中后台模板
 
 hero:
   name: "Quae-魁"
-  text: "新拟物风的中后台模板"
+  text: "新拟物风中后台模板"
   tagline: 简约、细腻、灵动，帮助你快速构建中小型网站。
   image:
     src: /logo.png
