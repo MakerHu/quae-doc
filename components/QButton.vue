@@ -13,9 +13,7 @@ const props = defineProps({
   },
 });
 
-const onClick = () => {
-  
-};
+const onClick = () => {};
 </script>
 
 <style scoped>
@@ -43,8 +41,13 @@ const onClick = () => {
   box-shadow: var(--quae-inner-shadow-shallow);
 }
 
+.flat-shallow {
+  border: solid 0.1px var(--quae-border-color);
+}
+
 .flat-shallow:active {
   box-shadow: var(--quae-inner-shadow-shallow);
+  border: solid 0.1px var(--quae-color-background);
 }
 
 .low-shallow {
@@ -53,20 +56,5 @@ const onClick = () => {
 
 .low-shallow:active {
   box-shadow: var(--quae-inner-shadow-shallow);
-}
-</style>
-
-<style>
-:root {
-  --quae-color-text-blue: rgba(0, 102, 204, 0.7);
-  --quae-color-text-grey: #757575;
-  --quae-color-background: #ededed;
-  --quae-box-shadow-high: 2px 2px 4px #c9c9c9, -2px -2px 4px #ffffff;
-  --quae-box-shadow-low: 1px 1px 2px #c9c9c9, -1px -1px 2px #ffffff;
-  --quae-inner-shadow-shallow: inset 1px 1px 3px #c9c9c9,
-    inset -1px -1px 3px #ffffff;
-  --quae-inner-shadow-deep: inset 2px 2px 5px #c9c9c9,
-    inset -2px -2px 5px #ffffff;
-  --quae-text-inner-shadow: 1px 3px 6px #fff, 0 0 0 #000, 1px 3px 6px #fff;
 }
 </style>
