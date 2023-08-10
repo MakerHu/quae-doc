@@ -23,6 +23,13 @@ const onClick = () => {};
   border-radius: 5px;
   padding: 0 10px;
   margin: 5px;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .high-low {
