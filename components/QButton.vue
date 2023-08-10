@@ -1,5 +1,5 @@
 <template>
-  <button class="quae-button" :class="type" @click="onClick">
+  <button class="quae-button" :class="type" @touchstart="" @click="onClick">
     <slot> 按钮 </slot>
   </button>
 </template>
