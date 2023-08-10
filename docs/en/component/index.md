@@ -1,1 +1,1 @@
-# Component
+# QuaeUI component library
